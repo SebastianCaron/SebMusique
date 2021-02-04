@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ColorChooser">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/NotifMenu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="554dp"
+            android:gravity="center"
+            android:text="Couleur des Notifications"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toTopOf="@+id/Nextnotif"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Nextnotif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="Prochain"
+            android:background="@drawable/shapesbt"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Menu1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/letsgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="342dp"
+            android:text="Lets Go !"
+            android:background="@drawable/shapesbt"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="203dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="139dp"
+            android:layout_marginBottom="138dp"
+            android:autoText="false"
+            android:gravity="center"
+            android:text="Mettons un peu de couleur !"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toTopOf="@+id/letsgo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ToolbarMenu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="554dp"
+            android:gravity="center"
+            android:text="Couleur de la barre d'outils"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toTopOf="@+id/Nexttoolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Nexttoolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="Prochain"
+            android:background="@drawable/shapesbt"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/SongListMenu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="554dp"
+            android:gravity="center"
+            android:text="Couleur de la liste des chansons"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toTopOf="@+id/NextSonglist"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/NextSonglist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="Prochain"
+            android:background="@drawable/shapesbt"
+            android:backgroundTint="@color/blue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/PlayerLectMenu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="554dp"
+            android:gravity="center"
+            android:text="Couleur des Controlles"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            app:layout_constraintBottom_toTopOf="@+id/NextControlls"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/NextControlls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/shapesbt"
+            android:backgroundTint="@color/blue"
+            android:text="Prochain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/bluenotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/DarkBluebtnotif"
+        app:layout_constraintEnd_toStartOf="@+id/saumonbtnotif"
+        app:layout_constraintStart_toEndOf="@+id/orangebtnotif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/DarkBluebtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="457dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/DarkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Greenbtnotif"
+        app:layout_constraintStart_toEndOf="@+id/Redbtnotif"
+        app:layout_constraintTop_toBottomOf="@+id/bluenotif"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/yellowbtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="34dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/Yellow"
+        app:layout_constraintBottom_toTopOf="@+id/Pinkbtnotif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/saumonbtnotif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/Greenbtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="457dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Pinkbtnotif"
+        app:layout_constraintStart_toEndOf="@+id/DarkBluebtnotif"
+        app:layout_constraintTop_toBottomOf="@+id/saumonbtnotif"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/saumonbtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/saumon"
+        app:layout_constraintBottom_toTopOf="@+id/Greenbtnotif"
+        app:layout_constraintEnd_toStartOf="@+id/yellowbtnotif"
+        app:layout_constraintStart_toEndOf="@+id/bluenotif"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/Redbtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="459dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/RED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/DarkBluebtnotif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orangebtnotif"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/Pinkbtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="459dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Greenbtnotif"
+        app:layout_constraintTop_toBottomOf="@+id/yellowbtnotif"
+        app:srcCompat="@drawable/circle" />
+
+    <ImageButton
+        android:id="@+id/orangebtnotif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="34dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/orange"
+        android:foregroundTint="@color/orange"
+        android:foregroundTintMode="src_over"
+        android:tint="@color/orange"
+        app:layout_constraintBottom_toTopOf="@+id/Redbtnotif"
+        app:layout_constraintEnd_toStartOf="@+id/bluenotif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

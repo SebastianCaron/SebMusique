@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191919</color>
+    <color name="colorPrimaryDark">#040404</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="text_color">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="drawer_color">#292B2C</color>
+    <color name="light_color">#fafafa</color>
+    <color name="off_color">#dfdada</color>
+    <color name="gray_color">#9c9b9b</color>
+
+    <color name="defa">#191919</color>
+    <color name="defadark">#040404</color>
+    <color name="defaca">#000000</color>
+
+    <color name="orange">#FF5733</color>
+    <color name="orangeda">#93321E</color>
+    <color name="orangeca">#39130C</color>
+
+    <color name="blue">#28E5FC</color>
+    <color name="blueda">#1D96A4</color>
+    <color name="blueca">#0F4D54</color>
+
+    <color name="Yellow">#FFC300</color>
+    
+    <color name="RED">#FF0000</color>
+    
+    <color name="DarkBlue">#000CFF</color>
+    
+    <color name="pink">#FF00D8</color>
+    
+    <color name="saumon">#FA8072</color>
+    
+    <color name="green">#2ECC71</color>
+
+    <color name="Whithe">#ffffff</color>
+</resources>

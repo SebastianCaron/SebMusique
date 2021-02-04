@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_theme_color"
+            android:icon="@drawable/theme_color_icon"
+            android:title="@string/theme_color" />
+        <item
+            android:id="@+id/nav_sleep_timer"
+            android:icon="@drawable/playlisticonb"
+            android:title="Creer Une Playlist" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/rate_icon"
+            android:title="@string/rate_app" />
+        <item
+            android:id="@+id/youtubetomp3"
+            android:icon="@drawable/musicb"
+            android:title="Youtube vers MP3"></item>
+        <item
+            android:id="@+id/musictomp3t"
+            android:icon="@drawable/musicb"
+            android:title="Titre vers MP3"></item>
+        <item
+            android:id="@+id/fullsrcreen"
+            android:title=""></item>
+        <item android:title=""></item>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:title="@string/about" />
+    </group>
+</menu>
